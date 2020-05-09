@@ -18,8 +18,17 @@
 
 .post-text p{
 margin: 0 0 10px 0;
+color: #555555;
 }
 
 .body{
-	background-image: url("../images/500x300.gif");
+	background-image: url("../images/star.jpg");
+	background-size: 700px 700px;
 }
+
+ .gradient{
+	width: 600px;
+	height: 300px;
+	/* background-image: linear-gradient(135deg, #ff0000, #ff7b00, #fffb00, #1eff00,#00a2ff, #4400ff, #ff04ea73, #ff008c); */
+	background-image: radial-gradient(circle, #fff, rgb(255, 0, 0));
+ } 
