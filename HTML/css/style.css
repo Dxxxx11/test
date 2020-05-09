@@ -1,6 +1,25 @@
 .post {
-	width: 50;
-	height: 40;
+	width: 700px;
+	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 15pz 25px;
+	border: 1px solid #000000;
+	/* background-color: coral; */
+	background-image: url("../images/500x300.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.post-title{
+	margin: 0 0 20px 0;
+	color: #FF2223;
+}
+
+.post-text p{
+margin: 0 0 10px 0;
+}
+
+.body{
+	background-image: url("../images/500x300.gif");
 }
