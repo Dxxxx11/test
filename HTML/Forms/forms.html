@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>
+ forms
+</title>
+</head>
+<body>
+<div class="form">
+    <h1 class="title">Forms</h1>
+
+    <form action="/" method="POST">
+    <div class="form-group">
+        <label for="input-name">Your name</label>
+
+        <input class="form-input" type="text" name="name" id="input-name">
+    </div>
+    <div class="form-group">
+        <label>Your email</label>
+        <input class="form-input" type="email" name="email" >
+    </div>
+    <div class="form-group">
+        <label>change password</label>
+        <input class="form-input" type="password" name="password" >
+    </div>
+    <div class="form-group">
+        <label>Your phone number</label>
+        <input class="form-input" type="tel" name="phone-number" >
+    </div>
+    <div class="form-group">
+        <label>About you</label>
+        <textarea class="textarea" name="text"></textarea>
+    </div>
+
+    <select >
+    <option>
+1
+    </option>
+    <option>
+2
+    </option>
+    <option>
+3
+    </option>
+    <option>
+4
+    </option>
+    
+</select>
+
+<div class="form-group">
+    <div>
+    <input name="gender" id="woman" type="radio">
+    <label for="woman">Woman</label>
+</div>
+<div>
+    <input name="gender" id="man" type="radio">
+    <label for="man">Man</label>
+</div>
+<div>
+    <input id="rules" name="rules" type="checkbox">
+    <label for="checkboxx">I read rules</label>
+</div>
+</div>
+
+<button type="submit">Register</button>
+<button type="reset">Clear</button>
+
+    </form>
+
+
+</div>
+</body>
+</html>

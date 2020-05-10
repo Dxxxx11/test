@@ -1,0 +1,31 @@
+.form {
+width: 30;
+padding: 5px;
+margin: auto;
+background-color: cyan;
+text-align: center;
+
+}
+
+.form-group{
+    margin-bottom: 5px;
+
+
+}
+
+.form-input{
+    padding: 5px;
+    border:3px solid cyan;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textarea {
+    width: 200;
+    height: 150;
+    border: 3px solid cyan;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serifx;
+}
+
