@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    font-family:  Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 1.5;
+    background-image: url("img/bg.jpg");
+}
+
+.page{
+    width: 800px;
+    margin: 20px auto;
+
+}
+
+.header{
+    padding: 20px;
+
+    background-color: rgb(0, 0, 0);
+}
+
+.header-title{
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.header-subtitle{
+    margin: 0;
+    font-size: 16px;
+    color: rgb(0, 183, 255);
+    text-align: center;
+    font-weight: 400;
+}
+
+.nav{
+    text-align: center;
+}
+
+.nav-link{
+    display: inline-block;
+    padding: 8px  12px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.nav-link:hover{
+    background-color: rgba(53, 53, 77, 0.335);
+}
+
+.nav-link-active{
+    display: inline-block;
+    padding: 8px  12px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: rgba(0, 255, 255, 0.678);
+}
+
+
+
+.content-about-title{
+    padding-left: 0;
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    color:#ffffff ;
+}
+
+.content-text{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.read-more{
+    color: cyan;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.read-more:hover{
+    text-decoration: underline;
+}
+
+.content-news-title{
+
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.article-title{
+    margin: 0 0 15px 0;
+font-size: 18px;
+color: violet;
+}
+
+.article{
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.link-read-more{
+    padding-left: 20px;
+    text-decoration: none;
+    color: cyan;
+
+}
+.link-read-more:hover{
+    text-decoration: underline;
+}
+
+.article-date{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.article-text{
+
+
+    padding: 0 0 15px 20px;
+}
+
+
+.news-read-more{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.article-title a{
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-title a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    padding: 20px 20px;
+    background-color: #000000;
+    text-align: center;
+    
+}
+
+.to-home{
+    text-decoration: none;
+    color: cyan;
+    padding: 15px;
+    margin-top: 15px;
+
+}
+
+.to-home:hover{
+    text-decoration: underline;
+}
+
+.border{
+    border-bottom: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.download-link{
+    text-decoration: none;
+    color: cyan;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.download{
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
