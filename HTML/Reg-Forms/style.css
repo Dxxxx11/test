@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(255, 187, 0);
+    background-color: rgb(17, 0, 255);
+}
+
+.auth{
+    width: 260px;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 20px auto;
+    background-color: cyan;
+}
+
+.auth-title{
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    color: darkred;
+    text-align: center;
+}
+.form-group{
+    margin: 15px;
+    width: 234px;
+}
+
+.input {
+    display: block;
+
+    margin: auto;
+    padding: 8px 15px;
+    width: 200px;
+    border: 2px solid #00ff37b0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.input:focus{
+    outline: 0;
+    border-color: darkslateblue;
+    background-color: rgb(165, 153, 153);
+}
+
+select{
+    display: block;
+
+    margin: 0;
+    padding: 8px 15px;
+    width: 234px;
+    border: 2px solid #00ff37b0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 38px;
+}
+
+select:focus{
+    outline: 0;
+    border-color: darkslateblue;
+    background-color: rgb(165, 153, 153);
+}
+
+.btn{
+    display: block;
+
+    margin: auto;
+    padding: 10px;
+    width: 234px;
+    border: 2px solid #00ff37b0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 38px;
+    background-color: #757575;
+    font-weight: 600;
+    color: lightcyan;
+}
+.btn:hover{
+    background-color: rgb(83, 78, 78);
+    cursor: pointer;
+}
+
+.btn:focus{
+    background-color: #757575;
+}
+

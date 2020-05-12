@@ -1,0 +1,13 @@
+.form-group:hover{
+    outline: none;
+}
+.form-input:hover,
+.form-input:focus{
+}
+.form-input:active{
+    background-color:rgb(0, 255, 0)
+}
+
+.link:visited{
+    color: cyan;
+}

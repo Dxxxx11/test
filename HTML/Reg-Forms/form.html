@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>
+ Register form
+</title>
+</head>
+<body>
+
+    <div class="auth">
+        <h1 class="auth-title">Register</h1>
+        <form action="/" method="POST">
+            <div class="form-group">
+        <input class="input" type="text" name="name" placeholder="your name">
+    </div>
+    <div class="form-group">    
+    <input class="input" type="email" name="email" placeholder="your email">
+</div>
+<div class="form-group">    
+    <input class="input" type="tel" name="phone-number" placeholder="your phone number">
+</div>
+<div class="form-group">    
+    <input class="input" type="password" name="password" placeholder="your password">
+</div>
+<div class="form-group">    
+    <input class="input"  type="password" name="password-confirm" placeholder="confirm password">
+</div>
+<div class="form-group">
+    <select name ="city" >
+        <option>
+            Moscow
+        </option>
+        <option>
+            St.Peterburg
+        </option>
+        <option>
+            Дубна
+        </option>
+        <option>
+            Кемерово
+        </option>
+        <option>
+            Озёрск
+        </option>
+        <option>
+            Покров
+        </option>
+        <option>
+            рыбинск
+        </option>
+        
+    </select>
+</div>
+
+<div class="form-group">
+    <input type="checkbox" name="rules" id="rules">
+    <label for="rules">I read and accept rules</label>
+
+</div>
+<button class="btn" type="submit" >Registrate</button>
+    </form>
+    </div>
+
+</body>
+</html>
