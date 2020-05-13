@@ -6,6 +6,13 @@ body{
     line-height: 1.5;
     background-image: url("img/bg.jpg");
     background-attachment: fixed;
+    height: 100%;
+    min-height: 900;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
 }
 
 .page{
@@ -15,23 +22,24 @@ body{
 }
 
 .header{
-    padding: 20px;
-
-    background-color: rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
 }
 
 .header-title{
-    margin: 0;
+    padding: 20px;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     color: rgb(255, 255, 255);
+    width: 400px;
+
 }
 
 .header-subtitle{
+    padding: 20px;
     margin: 0;
     font-size: 16px;
     color: rgb(0, 183, 255);
-    text-align: center;
+    text-align: left;
     font-weight: 400;
 }
 
@@ -141,10 +149,13 @@ color: violet;
 }
 
 .footer{
-    padding: 20px 20px;
+    
+    padding: 20px 0;
     background-color: #000000;
     text-align: center;
-    
+    position: absolute;
+    bottom: 0;
+    width: 800px;
 }
 
 .to-home{
@@ -177,19 +188,93 @@ color: violet;
 }
 
 
+.reg-form{
+    margin: auto;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 50px;
+}
+
+.reg{
+    width: 577px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/reg-bg.jpg");
+    border: 5px solid black;
+}
+
+input{
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: cyan;
+    border: 2px solid rgb(0, 60, 255);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+input:hover{
+    background-color: rgb(0, 153, 255);
+    border-color: darkblue;
+}
+
+input:focus{
+    background-color: rgb(0, 153, 255);
+    border-color: darkblue;
+}
+
+.btn{
+    margin-bottom: 15px;
+    width: 150px;
+    height: 25px;
+    background-color: #ffffff91;
+
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    border-color: rgba(155, 155, 155, 0.274);
+}
+
+.btn:focus{
+    margin-bottom: 15px;
+    width: 150px;
+    height: 25px;
+    background-color: #ffffff91;
+}
+
+.btn-text{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-text:visited{
+    margin-bottom: 15px;
+    width: 150px;
+    height: 25px;
+    text-decoration: none;
+    background-color: #ffffff91;
+}
+
+::placeholder{
+color: black;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
+.reg-icon{
+    width: 25px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 0;
+}
 
 
 
